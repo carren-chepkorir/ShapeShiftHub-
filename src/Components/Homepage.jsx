@@ -1,5 +1,6 @@
 import React from "react";
-import gymBackgroundImage from "../assets/background.png";
+// import gymBackgroundImage from "../assets/background.png";
+import gymBackgroundImage from "../assets/hero_image.png";
 import { Link } from "react-router-dom";
 
 const Homepage = () => {
