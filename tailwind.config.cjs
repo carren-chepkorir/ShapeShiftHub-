@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+      colors: {
+        customPink: "#f4dae4",
+      },
       fontFamily: {
         poppins: ["Poppins", "sans serif"],
       },

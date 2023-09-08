@@ -13,6 +13,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
+import Facilities from "./Pages/Facilities";
 function App() {
   return (
     <BrowserRouter>
@@ -23,8 +24,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
+            <Route path="/facilities" element={<Facilities />}></Route>
             <Route path="/customerlogin" element={<CustomerLogin />}></Route>
-            <Route path="/contact" element={<Contact />}></Route>v
+            <Route path="/contact" element={<Contact />}></Route>
           </Routes>
         </div>
       </React.StrictMode>
