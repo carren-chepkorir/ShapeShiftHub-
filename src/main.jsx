@@ -14,6 +14,7 @@ import Contact from "./Pages/Contact";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
 import Facilities from "./Pages/Facilities";
+import Training from "./Pages/Training";
 function App() {
   return (
     <BrowserRouter>
@@ -27,6 +28,7 @@ function App() {
             <Route path="/facilities" element={<Facilities />}></Route>
             <Route path="/customerlogin" element={<CustomerLogin />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/training" element={<Training />}></Route>
           </Routes>
         </div>
       </React.StrictMode>

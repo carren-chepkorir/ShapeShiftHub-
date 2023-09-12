@@ -13,6 +13,7 @@ import imageArea9 from "../assets/Area9.jpg";
 import imageArea10 from "../assets/Area10.png";
 import imageArea11 from "../assets/Area11.png";
 import imageArea12 from "../assets/yoga.jpg";
+import { Link } from "react-router-dom";
 
 const Facilities = () => {
   return (
@@ -77,9 +78,11 @@ const Facilities = () => {
             <br /> floor offers the perfect setting for achieving your
             professional goals.
           </p>
-          <button className="mx-auto mt-5 text-white bg-[#2f7c80]  py-4 px-10 rounded-full ">
-            Join Now
-          </button>
+          <Link to="/Training">
+            <button className="mx-auto mt-5 ml-[150px] text-white bg-[#2f7c80]  py-4 px-10 rounded-full ">
+              Join Now
+            </button>
+          </Link>
         </div>
         <div className="flex flex-wrap flex-col mt-[50px]">
           <div className="flex flex-wrap space-x-5 ">
